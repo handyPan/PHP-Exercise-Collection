@@ -1,4 +1,5 @@
 <?php require_once("lib/db.php"); ?>
+<?php require_once("lib/common.php"); ?>
 <?php require_once("lib/sessions.php"); ?>
 <?php
     function redirectTo($newLocation) {
@@ -45,5 +46,4 @@
 
         echo $output;
     }
-
 ?>
